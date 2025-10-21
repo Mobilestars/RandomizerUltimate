@@ -1,0 +1,13 @@
+# RandomizerUltimate Configuration
+# Einstellungen gelten global, nicht pro Spieler
+
+settings:
+  default-enabled: false    # Soll ein Randomizer automatisch starten, wenn ein Spieler joint?
+  prefix: "&6[Randomizer]" # Prefix für Chatnachrichten vom Plugin
+
+messages:
+  started: "&aRandomizer gestartet für %player%"
+  stopped: "&cRandomizer gestoppt für %player%"
+  copied: "&eRandomizer von %from% zu %to% kopiert"
+  player-not-found: "&cSpieler nicht gefunden!"
+  usage: "&cVerwendung: /randomizer <player> [stop|copy <player>]"

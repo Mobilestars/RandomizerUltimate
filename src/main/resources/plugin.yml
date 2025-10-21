@@ -1,0 +1,14 @@
+name: RandomizerUltimate
+version: '1.2.0'
+main: de.scholle.randomizerUltimate.RandomizerUltimate
+api-version: '1.18'
+prefix: Randomizer
+load: STARTUP
+authors: [ Mobilestars ]
+description: Ultimate drop randomizer plugin
+website: https://modrinth.com/project/randomizerultimate
+
+commands:
+  randomizer:
+    description: Start/stop/copy the randomizer
+    usage: /randomizer <player> [stop|copy <player>]
